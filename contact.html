@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<!--<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">-->
+	<meta charset="UTF-8">
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<title > SANTIAGO BORJA</title>
+
+	<script type="text/javascript" src="js/main.js"> </script>
+	<link rel="stylesheet" type= "text/css" href="css/design.css"/>
+
+</head>
+<body>
+
+<!--
+	<div id="miModal" class="modal" >
+  	<div class="modal-contenido">
+    	<a href="#">X</a>
+    	<h2>Ventana Modal</h2>
+  
+  	</div>  
+	</div>
+-->
+	<div >
+		<!--<a href="#miModal" class="header">SANTIAGO BORJA</a>-->
+		<a href="Index.html" class="header">SANTIAGO BORJA</a>
+	</div>
+	<div class="topnavV"  id="myTopnav">
+   		<a href="about.html" class="option" onclick="vertical()">ABOUT</a>
+  		<a href="work.html" class="option">WORK</a>
+  		<a href="text.html" class="option">TEXT</a>
+  		<a href="news.html" class="option">NEWS</a>
+  		<a href="contact.html" class="option" style="background-color: #bbb;">CONTACT</a>
+  		<!--<a href="javascript:void(0);" class="icon" onclick="window.onload=myFunction()">-->
+    	<i class="fa fa-bars"></i>
+	</div>
+	<br>
+	<br>
+	<div class="cont">
+		<label class="subtitl">CONTACT</label>
+		
+		 <br>
+		 <br>
+		 <form name="frmContacto" method="post" action="php/sendMail.php">
+<table >
+<tr>
+<td class="cloumnLbl">
+<label for="name" class="lblMail">Name: </label>
+</td>
+<td class="columnInpt">
+<input type="text" name="name" class="inptMail">
+</td>
+</tr>
+
+<tr>
+<td class="cloumnLbl">
+<label for="email">E-mail: </label>
+</td>
+<td class="columnInpt">
+<input type="text" name="email" class="inptMail">
+</td>
+</tr>
+<tr>
+<td class="cloumnLbl">
+<label for="subject">Subject:</label>
+</td>
+<td class="columnInpt">
+<input type="text" name="subject" class="inptMail">
+</td>
+</tr>
+
+<tr>
+<td colspan="2" class="coments">
+<textarea name="comments" class="coments"  ></textarea>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" style="text-align:right">
+<input type="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+
+
+	</div>
+<!--
+<button id="boton" onclick="a()">hola</button>
+href="Index.html"
+-->
+
+</body>
+</html>

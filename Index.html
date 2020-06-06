@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<!--<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">-->
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="js/main.js"> </script>
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+	<link rel="stylesheet" type= "text/css" href="css/indxDesign.css"/>
+
+	<title> SANTIAGO BORJA</title>
+
+
+<!--
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>-->
+	<script type="text/javascript">
+		function vetical(){
+		alert("hola");
+		var v = document.getElementById("myTopnav");
+		v.classList.add("topnavV");
+		v.classList.remove("topnav");
+
+	}
+	</script>
+	
+</head>
+<body >
+
+	<div id="miModal" class="modal" >
+  	<div class="modal-contenido">
+    	<a href="#">X</a>
+    	<h2>Ventana Modal</h2>
+  
+  	</div>  
+	</div>
+
+	<div>
+		<a class="header">SANTIAGO BORJA</a>
+	</div>
+	<div class="topnav"  id="myTopnav">
+ 		<a href="about.html" onclick="vertical()">ABOUT</a>
+ 		<a href="work.html">WORK</a>
+  		<a href="text.html">TEXT</a>
+  		<a href="news.html">NEWS</a>
+  		<a href="contact.html">CONTACT</a>
+ <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">-->
+	</div>
+
+	<!--<button id="boton">hola</button>-->
+</body>
+</html>
